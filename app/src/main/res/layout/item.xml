@@ -6,21 +6,39 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
+
     <TextView
-        android:id="@+id/tv_nama"
-        android:text="@string/nama_produk"
-        android:textSize="28sp"
+        android:text="Nama"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/et_nama"
+        android:hint="Masukkan Nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <TextView
+        android:text="NIM"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/et_nim"
+        android:hint="Masukkan NIM"
+        android:inputType="number"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
     <TextView
-        android:id="@+id/tv_deskripsi"
-        android:text="@string/nama_deskripsi"
-        android:textSize="20sp"
+        android:text="Pilih Prodi"
+        android:textSize="18sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
-
-
-
+    <Spinner
+        android:id="@+id/spinner_prodi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 
 </LinearLayout>

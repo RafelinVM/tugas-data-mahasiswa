@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Kuis</string>
+    <string-array name="prodi_array">
+        <item>MI</item>
+        <item>Listrik</item>
+    </string-array>
 </resources>
